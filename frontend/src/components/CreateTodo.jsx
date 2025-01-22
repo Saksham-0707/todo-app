@@ -24,7 +24,7 @@ export function CreateTodo(){
                 padding:10,
                 margin:10
             }} onClick={()=>{
-                fetch("http://localhost:3000/todo",{
+                fetch("http://13.60.57.80:3000/todo",{
                     method:"POST",
                     body: JSON.stringify({
                         title,

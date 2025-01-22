@@ -8,7 +8,7 @@ export function Todos({todos}){
             <button 
             onClick={async function(){
                 try {
-                    const response = await fetch('http://localhost:3000/completed', {
+                    const response = await fetch('http://13.60.57.80:3000/completed', {
                       method: 'PUT',
                       headers: {
                         'Content-Type': 'application/json',
